@@ -46,6 +46,7 @@ Fix the nav bar to top with position: sticky.
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
 <nav>
     <div class="logo">NetflixClone</div>
     <ul>
@@ -88,9 +89,11 @@ Fix the nav bar to top with position: sticky.
       <p>Suzhal</p>
     </div>
   </section>
+  </div>
 
 </body>
 </html>
+
 
 ```
 ## CSS Code:
@@ -106,6 +109,11 @@ Fix the nav bar to top with position: sticky.
       font-family: 'Segoe UI', sans-serif;
       background-color: #121212;
       color: white;
+    }
+    .container{
+      background: url(nett.jpg) no-repeat center center/cover;
+      
+      height: 100vh;
     }
 
     nav {
@@ -156,7 +164,8 @@ Fix the nav bar to top with position: sticky.
       justify-content: space-between;
       align-items: center;
       padding: 60px 50px;
-      background-color: #111;
+      background-color: #a98787;
+      background: url(nett.jpg) no-repeat center center/cover;
       height: 70vh;
     }
 
@@ -221,10 +230,12 @@ Fix the nav bar to top with position: sticky.
     .show-card:hover{
       color: red;
     }
+    
 
 ```
 ## Output:
-![Screenshot 2025-07-10 134305](https://github.com/user-attachments/assets/7140efc8-7e3e-4e61-84ba-35317d0202c5)
+![Uploading Screenshot 2025-07-10 140800.png…]()
+
 
 ## Result:
 A modern, responsive navigation bar using CSS Flexbox, mimicking real-world websites like Netflix. This helps reinforce alignment, spacing, and layout structuring using Flexbox properties is created successfully.
