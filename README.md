@@ -234,7 +234,8 @@ Fix the nav bar to top with position: sticky.
 
 ```
 ## Output:
-![Uploading Screenshot 2025-07-10 140800.png…]()
+![Screenshot 2025-07-10 140800](https://github.com/user-attachments/assets/ede228e0-01af-4991-b7de-b3eee75a8da6)
+
 
 
 ## Result:
