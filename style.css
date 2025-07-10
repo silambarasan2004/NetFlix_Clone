@@ -64,9 +64,8 @@
       justify-content: space-between;
       align-items: center;
       padding: 60px 50px;
-      background-color: #a98787;
       background: url(nett.jpg) no-repeat center center/cover;
-      height: 70vh;
+      height: 55vh;
     }
 
     .hero-left {
@@ -95,7 +94,8 @@
         cursor: pointer;
     }
     .hero-right img{
-        max-width: 400px;
+        max-width: 700px;
+        height: 50vh;
         border-radius: 10px;
     }
     .section-title {
