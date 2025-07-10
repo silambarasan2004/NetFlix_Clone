@@ -1,0 +1,133 @@
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: white;
+    }
+    .container{
+      background: url(nett.jpg) no-repeat center center/cover;
+      
+      height: 100vh;
+    }
+
+    nav {
+      background: linear-gradient(to right, #111, #222);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px;
+      padding-right: 35px;
+    }
+    .logo{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #e40914;
+    }
+    ul{
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+    ul li a{
+        color: white;
+        transition: all 0.3s ease-in-out;
+        font-weight: 500;
+        text-decoration: none;
+        position: relative;
+    }
+    ul li a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 0%;
+        height: 2px;
+        background-color: #e50914;
+        transition: width 0.3s ease-in-out;
+    }
+    ul li a:hover::after{
+        width: 100%;
+    }
+    ul li a:hover{
+        color: #e50914;
+    }
+   
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 50px;
+      background-color: #a98787;
+      background: url(nett.jpg) no-repeat center center/cover;
+      height: 70vh;
+    }
+
+    .hero-left {
+      flex: 1;
+    }
+
+    .hero-left h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-left p {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    .hero-left .btn{
+        margin-top: 20px;
+    }
+    .btn{
+        border: none;
+        background-color: red;
+        padding: 8px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .hero-right img{
+        max-width: 400px;
+        border-radius: 10px;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: 30px 50px 10px;
+    }
+    .popular-shows{
+      display: flex;
+      gap: 20px;
+      padding: 10px 50px 40px;
+    }
+
+    .show-card{
+      width: 168px;
+      background-color: #222;
+      border-radius: 6px;
+      overflow: hidden;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+    .show-card img{
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .show-card p{
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 8px;
+    }
+    .show-card:hover{
+      color: red;
+    }
+    
