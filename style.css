@@ -59,7 +59,7 @@
     }
    
 
-    .hero {
+    .actor {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -68,21 +68,21 @@
       height: 55vh;
     }
 
-    .hero-left {
+    .actor-left {
       flex: 1;
     }
 
-    .hero-left h1 {
+    .actor-left h1 {
       font-size: 4rem;
       margin-bottom: 20px;
     }
 
-    .hero-left p {
+    .actor-left p {
       margin: 10px 0;
       font-size: 1.1rem;
       color: #ccc;
     }
-    .hero-left .btn{
+    .actor-left .btn{
         margin-top: 20px;
     }
     .btn{
@@ -93,7 +93,7 @@
         font-size: 1rem;
         cursor: pointer;
     }
-    .hero-right img{
+    .actor-right img{
         max-width: 700px;
         height: 50vh;
         border-radius: 10px;
